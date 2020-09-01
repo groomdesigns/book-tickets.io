@@ -6,7 +6,7 @@ html{
 	scroll-behavior: smooth;
 }
 ::-webkit-scrollbar {
-  width: 8px;
+  width: .8vw;
 }
 
 /* Track */
@@ -776,7 +776,7 @@ html{
 }
 
 /**************************Responsive-code***************************/
-@media screen and (max-width: 760px){
+@media screen and (max-width: 1024px){
 	.nav-wrapper{
 	padding-top: 1vh;
 	padding-bottom: 1vh;
@@ -952,7 +952,9 @@ html{
 		font-size: 4vw;
 	}
 	.section4-right p{
-		font-size: 1.7vw;
+		font-size: 5vw;
+		height: 15vw;
+		overflow: auto;
 	}
 	.section4-right button{
 		font-size: 1.8vw;
