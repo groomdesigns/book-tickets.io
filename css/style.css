@@ -390,6 +390,7 @@ html{
 .section3-top-text{
 	font-family: refsans;
 	font-size: 2vw;
+	color: #707070;
 	width: 100%;
 	text-align: center;
 	padding-top: 5vw;
@@ -772,4 +773,269 @@ html{
 	padding-bottom: 1.7vw;
 	padding-left: .9vw;
 	height: 1.7vw;
+}
+
+/**************************Responsive-code***************************/
+@media screen and (max-width: 760px){
+	.nav-wrapper{
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+	}
+	.nav-wrapper a{	
+		font-size: 2vw;
+		margin-left: .7vw;
+		margin-right: .7vw;
+	}
+	.logo{
+		padding-bottom: 1vh;
+		padding-top: 1.5vh;
+		padding-left: 4vh;
+	}
+	.logo img{
+		height: 8vw;
+	}
+	.search{
+		margin-left: 7%;
+	}
+	.search input{
+		font-size: 1.1vw;
+		padding-left: 10%;
+	}
+	.search button{
+		font-size: 2vw;
+		height: 50%;
+		width: 29%;
+		margin-top: 2vw;
+		margin-left: -8vw;
+	}
+	.login{
+		padding-bottom: 1.5vh;
+		padding-top: 5vw;
+	}
+	.login span{
+		margin-right: 30%;
+	}
+	.login img{
+		height: 2.5vw;
+	}
+	.login p{
+		font-size: 2.1vw;
+		width: 33%;
+	}
+	.section1-left-top-img{
+		margin-top: 2.1vw;
+		margin-bottom: 1.2vw;
+		margin-left: 1.2vw;
+	}
+	.section1-left-top-content h3{
+		font-size: 2vw;
+		margin-bottom: 1.2vw;
+	}
+	.section1-left-top-content p{
+		font-size: 1.4vw;
+		margin-top: .8vw;
+	}
+	.section1-left-top-content button{
+		font-size: 1.5vw;
+		width: 60%;
+		padding-left: 1vw;
+		padding-right: 1vw;
+		margin-top: 3.5vw;
+		margin-left: 1.5vw;
+	}
+	.section1-left-bottom-content h3{
+		font-size: 2vw;
+		margin-bottom: 1.5vw;
+	}
+	.section1-left-bottom-content p{
+		font-size: 1.4vw;
+	}
+	.section1-left-bottom-content button{
+		font-size: 1.5vw;
+		width: 60%;
+		height: 2.7vw;
+		padding-left: .4vw;
+	}
+	.section1-left-bottom-content button:hover{
+		width: 65%;
+	}
+	.section1-right-img button{
+		font-size: 1.8vw;
+		width: 19vw;
+		height: 5vw;
+		margin-left: -8vw;
+	}
+	.section1-right-content{
+		margin-left: -9vw;
+	}
+	.section1-right-content h3{
+		font-size: 2vw;
+		margin-bottom: 2vw;
+		color: white;
+	}
+	.section1-right-content p{
+		font-size: 1.4vw;
+		margin-top: .5vw;
+	}
+	.section1-right-content button{
+		font-size: 1.6vw;
+		width: 60%;
+		height: 4vw;
+		padding-right: 1vw;
+		margin-top: 3.5vw;
+	}
+	.section1-right-content button:hover{
+		width: 65%;
+	}
+	.section1-right-content button img{
+		width: 1.5vw;
+	}
+	.section2-top-text-left{
+		font-size: 2.3vw;
+	}
+	.section2-top-text-right{
+		padding-top: 4.5vw;
+		font-size: 1.5vw;
+	}
+	.feature-overlaytext{
+	  font-size: 2.2vw;
+	}
+	.section3-top-text{
+		font-size: 4vw;
+		padding-top: 1vw;
+		padding-bottom: 6vw;
+	}
+	.section3-left-top-content h3{
+		font-size: 2vw;
+		margin-bottom: 1.5vw;
+	}
+	.section3-left-top-content p{
+		font-size: 1.6vw;
+		margin-top: .8vw;
+	}
+	.section3-left-top-content button{
+		font-size: 1.7vw;
+		width: 60%;
+		height: 3vw;
+	}
+	.section3-left-top-content button:hover{
+		width: 65%;
+	}
+	.section3-left-top-content button img{
+		width: 1.7vw;
+	}
+	.section3-right-top-content h3{
+		font-size: 2vw;
+	}
+	.section3-right-top-content p{
+		font-size: 1.6vw;
+	}
+	.section3-right-top-content button{
+		font-size: 1.7vw;
+		width: 60%;
+		height: 3vw;
+		padding-left: 1vw;
+		padding-bottom: .12vw;
+	}
+	.section3-right-top-content button:hover{
+		width: 65%;
+	}
+	.section4-left button{
+		font-size: 2.1vw;
+		width: 17vw;
+		height: 5vw;
+	}
+	.section4-right{
+		margin-left: -5vw;
+	}
+	.section4-right h3{
+		font-size: 4vw;
+	}
+	.section4-right p{
+		font-size: 1.7vw;
+	}
+	.section4-right button{
+		font-size: 1.8vw;
+		width: 35%;
+		height: 4vw;
+	}
+	.section4-right button:hover{
+		width: 45%;
+	}
+	.section4-socialhandle-wrapper{
+		width: 5.5vw;
+		padding-top: 1vw;
+		padding-bottom: 1vw;
+		padding-left: 2.2vw;
+	}
+	.section4-socialhandle-wrapper img{
+		width: 3vw;
+	}
+	.section5{
+		margin-top: 5vw;
+	}
+	.section5-left h3{
+		font-size: 4vw;
+		margin-bottom: 2vw;
+	}
+	.section5-left hr{
+		width: 53%;
+	}
+	.section5-left p{
+		font-size: 2.3vw;
+	}
+	.name-panel input{
+		height: 45%;
+		width: 95%;
+		margin-bottom: 2vw;
+		margin-top: .5vw;
+	}
+	.section5-left label{
+		font-size: 2.2vw;
+	}
+	.section5-left button{	
+		font-size: 2vw;
+		width: 50%;
+		height: 5vw;
+	}
+	.section5-right{
+		padding-top: 23vw;
+		padding-left: 10vw;
+		padding-bottom: 5vw;
+	}
+	.section5-right h5{
+		font-size: 1.6vw;
+		margin-bottom: 2vw;
+	}
+	.address, .phone, .maill, .ohours{
+		margin-bottom: 2vw;
+	}
+	.address h5 > hr{
+		width: 23%;	
+	}
+	.phone h5 > hr{
+		width: 17%;	
+	}
+	.maill h5 > hr{
+		width: 17%;
+	}
+	.ohours h5 > hr{
+		width: 42%;
+	}
+	.section5-right span > img{
+		height: 2vw;
+		margin-right: 2vw;
+	}
+	.section5-right span > p{
+		font-size: 1.7vw;
+	}
+	.footer-left{
+		font-size: 1.8vw;
+	}
+	.footer-right div{
+		width: 13%;
+		height: 3.5vw;
+		margin-left: 2vw;
+		margin-top: .5vw;
+	}
 }
