@@ -26,8 +26,8 @@ html{
 .nav-wrapper{
 	background: linear-gradient(to right, #B91CD1, #F11CB2);
 	width: 100%;
-	padding-top: 2vh;
-	padding-bottom: 2vh;
+	padding-top: 2vw;
+	padding-bottom: 2vw;
 }
 .nav-wrapper a{	
 	font-family: refsans;
@@ -586,20 +586,17 @@ html{
 	margin: auto 2vw;
 }
 .section4-socialhandle-wrapper{
-	width: 3.5vw;
-	padding-top: 1.4vw;
-	padding-bottom: 1vw;
-	padding-left: 1.4vw;
-	border-radius: 50%;
-	background-color: white;
-	margin-bottom: 2vw;
-	transition: 0.3s ease-in-out;
+	margin-bottom: 3vw;
 }
 .section4-socialhandle-wrapper img{
 	width: 2vw;
 	height: auto;
+	background-color: white;
+	padding: 20%;
+	border-radius: 50%;
+	transition: 0.3s ease-in-out;
 }
-.section4-socialhandle-wrapper:hover{
+.section4-socialhandle-wrapper img:hover{
 	background: radial-gradient(#F11CB2, #B91CD1);
 }
 .section5{
@@ -663,6 +660,8 @@ html{
 	max-height: 15vw;
 	margin-bottom: 1vw;
 	margin-top: .5vw;
+	border:1px solid #707070;
+	outline: none;
 }
 .section5-left label{
 	font-size: 1.2vw;
@@ -737,7 +736,7 @@ html{
 .footer{
 	width: 90%;
 	height: 4vw;
-	margin: 0 auto;
+	margin: 2vw auto;
 	display: flex;
 }
 .footer-left{
@@ -756,23 +755,15 @@ html{
 	width: 30%;
 	display: flex;
 }
-.footer-right div{
-	width: 13%;
-	height: 3.5vw;
-	background-color: #707070;
-	border-radius: 50%;
-	margin-left: 2vw;
-	margin-top: .5vw;
-	transition: 0.3s ease-in-out;
-}
-.footer-right div:hover{
+.footer-right div> img:hover{
 	background: radial-gradient(#F11CB2, #B91CD1);
 }
 .footer-right div > img{
-	padding-top: .8vw;
-	padding-bottom: 1.7vw;
-	padding-left: .9vw;
-	height: 1.7vw;
+	background-color: #707070;
+	padding: 1vw;
+	border-radius: 50%;
+	width: 2vw;
+	margin-left: 1vw;
 }
 
 /**************************Responsive-code***************************/
@@ -1011,14 +1002,6 @@ html{
 	.section4-right button:hover{
 		width: 45%;
 	}
-	.section4-socialhandle-wrapper{
-		width: 4.8vw;
-		padding-top: 1.4vw;
-		padding-left: 1.4vw;
-	}
-	.section4-socialhandle-wrapper img{
-		width: 3.5vw;
-	}
 	.section5{
 		margin-top: 5vw;
 	}
@@ -1091,12 +1074,6 @@ html{
 		font-size: 2.5vw;
 	}
 	.footer-right{
-		margin-left: 2vw;
-	}
-	.footer-right div{
-		width: 13%;
-		height: 3.5vw;
-		margin-left: 2vw;
-		margin-top: 2.3vw;
+		margin: auto 1vw;
 	}
 }
