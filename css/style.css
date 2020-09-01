@@ -834,6 +834,13 @@ html{
 		margin-top: 2.1vw;
 		margin-bottom: 1.2vw;
 		margin-left: 1.2vw;
+		margin-right: 8vw;
+	}
+	.section1-left-top-content{
+		margin-left: 0vw;		
+	}
+	.section1-left-bottom-content{
+		margin-left: 10vw;
 	}
 	.section1-left-top-content h3{
 		font-size: 4vw;
@@ -852,44 +859,56 @@ html{
 		margin-top: 6vw;
 		margin-left: 1.5vw;
 	}
+	.section1-left-top-content button img{
+		width: 3.5vw;
+	}
 	.section1-left-bottom-content h3{
-		font-size: 2vw;
-		margin-bottom: 1.5vw;
+		font-size: 4vw;
+		margin-bottom: 5vw;
 	}
 	.section1-left-bottom-content p{
-		font-size: 1.4vw;
+		font-size: 2.7vw;
+		margin-top: 2vw;
 	}
 	.section1-left-bottom-content button{
-		font-size: 1.5vw;
+		font-size: 2.7vw;
 		width: 60%;
-		height: 2.7vw;
+		height: 7vw;
 		padding-left: .4vw;
 	}
 	.section1-left-bottom-content button:hover{
 		width: 65%;
 	}
+	.section1-left-bottom-content button img{
+		width: 3.5vw;
+	}
+	.section1-right{
+		width: 100%;
+		padding-top: 10vw;
+		padding-bottom: 6vw;
+	}
 	.section1-right-img button{
-		font-size: 1.8vw;
-		width: 19vw;
-		height: 5vw;
+		font-size: 2.7vw;
+		width: 30vw;
+		height: 7vw;
 		margin-left: -8vw;
 	}
 	.section1-right-content{
-		margin-left: -9vw;
+		margin-left: -13vw;
+		margin-top: 13vw;
 	}
 	.section1-right-content h3{
-		font-size: 2vw;
+		font-size: 4vw;
 		margin-bottom: 2vw;
-		color: white;
 	}
 	.section1-right-content p{
-		font-size: 1.4vw;
-		margin-top: .5vw;
+		font-size: 2.7vw;
+		margin-top: 1vw;
 	}
 	.section1-right-content button{
-		font-size: 1.6vw;
-		width: 60%;
-		height: 4vw;
+		font-size: 2.7vw;
+		width: 50%;
+		height: 7vw;
 		padding-right: 1vw;
 		margin-top: 3.5vw;
 	}
@@ -897,35 +916,48 @@ html{
 		width: 65%;
 	}
 	.section1-right-content button img{
-		width: 1.5vw;
+		width: 3.5vw;
 	}
 	.section2-top-text-left{
-		font-size: 2.3vw;
+		font-size: 4vw;
+		margin-top: 3.5vw;
+		margin-bottom: 3.5vw;
 	}
 	.section2-top-text-right{
-		padding-top: 4.5vw;
-		font-size: 1.5vw;
+		padding-top: 3.5vw;
+		margin-top: 3.5vw;
+		margin-bottom: 3.5vw;
+		font-size: 2.7vw;
 	}
 	.feature-overlaytext{
-	  font-size: 2.2vw;
+		font-size: 2.7vw;
 	}
 	.section3-top-text{
-		font-size: 4vw;
+		font-size: 7vw;
 		padding-top: 1vw;
 		padding-bottom: 6vw;
 	}
+	.section3-content{
+		display: block;
+	}
+	.section3-left-top{
+		width: 96%;
+	}
+	.section3-right-top{
+		width: 96%;
+	}
 	.section3-left-top-content h3{
-		font-size: 2vw;
-		margin-bottom: 1.5vw;
+		font-size: 4vw;
+		margin-bottom: 2vw;
 	}
 	.section3-left-top-content p{
-		font-size: 1.6vw;
-		margin-top: .8vw;
+		font-size: 2.7vw;
+		margin-top: 1vw;
 	}
 	.section3-left-top-content button{
-		font-size: 1.7vw;
+		font-size: 2.7vw;
 		width: 60%;
-		height: 3vw;
+		height: 7vw;
 	}
 	.section3-left-top-content button:hover{
 		width: 65%;
@@ -934,15 +966,17 @@ html{
 		width: 1.7vw;
 	}
 	.section3-right-top-content h3{
-		font-size: 2vw;
+		font-size: 4vw;
+		margin-bottom: 2vw;
 	}
 	.section3-right-top-content p{
-		font-size: 1.6vw;
+		font-size: 2.7vw;
+		margin-top: 1vw;
 	}
 	.section3-right-top-content button{
-		font-size: 1.7vw;
+		font-size: 2.7vw;
 		width: 60%;
-		height: 3vw;
+		height: 7vw;
 		padding-left: 1vw;
 		padding-bottom: .12vw;
 	}
