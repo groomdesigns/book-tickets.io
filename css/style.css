@@ -948,7 +948,7 @@ html{
 	}
 	.section3-left-top-content h3{
 		font-size: 4vw;
-		margin-bottom: 2vw;
+		margin-bottom: 4vw;
 	}
 	.section3-left-top-content p{
 		font-size: 2.7vw;
@@ -967,7 +967,7 @@ html{
 	}
 	.section3-right-top-content h3{
 		font-size: 4vw;
-		margin-bottom: 2vw;
+		margin-bottom: 4vw;
 	}
 	.section3-right-top-content p{
 		font-size: 2.7vw;
@@ -993,6 +993,7 @@ html{
 	}
 	.section4-right h3{
 		font-size: 4vw;
+		margin-bottom: 4vw;
 	}
 	.section4-right p{
 		font-size: 2.5vw;
@@ -1000,34 +1001,39 @@ html{
 		overflow: auto;
 	}
 	.section4-right button{
-		font-size: 1.8vw;
-		width: 35%;
-		height: 4vw;
+		font-size: 2.7vw;
+		width: 25vw;
+		height: 6vw;
+	}
+	.section4-right button img{
+		width: 3.5vw;
 	}
 	.section4-right button:hover{
 		width: 45%;
 	}
 	.section4-socialhandle-wrapper{
-		width: 5.5vw;
-		padding-top: 1vw;
-		padding-bottom: 1vw;
-		padding-left: 2.2vw;
+		width: 4.8vw;
+		padding-top: 1.4vw;
+		padding-left: 1.4vw;
 	}
 	.section4-socialhandle-wrapper img{
-		width: 3vw;
+		width: 3.5vw;
 	}
 	.section5{
 		margin-top: 5vw;
 	}
+	.section5-left{
+		width: 50%;
+	}
 	.section5-left h3{
 		font-size: 4vw;
-		margin-bottom: 2vw;
+		margin-bottom: 4vw;
 	}
 	.section5-left hr{
 		width: 53%;
 	}
 	.section5-left p{
-		font-size: 2.3vw;
+		font-size: 2.5vw;
 	}
 	.name-panel input{
 		height: 45%;
@@ -1036,21 +1042,25 @@ html{
 		margin-top: .5vw;
 	}
 	.section5-left label{
-		font-size: 2.2vw;
+		font-size: 2.5vw;
 	}
 	.section5-left button{	
-		font-size: 2vw;
-		width: 50%;
-		height: 5vw;
+		font-size: 2.6vw;
+		width: 60%;
+		height: 7vw;
+	}
+	.section5-left button img{
+		width: 3.5vw;
 	}
 	.section5-right{
+		width: 50%;
 		padding-top: 23vw;
-		padding-left: 10vw;
+		padding-left: 1vw;
 		padding-bottom: 5vw;
 	}
 	.section5-right h5{
-		font-size: 1.6vw;
-		margin-bottom: 2vw;
+		font-size: 3vw;
+		margin-bottom: 4vw;
 	}
 	.address, .phone, .maill, .ohours{
 		margin-bottom: 2vw;
@@ -1068,19 +1078,25 @@ html{
 		width: 42%;
 	}
 	.section5-right span > img{
-		height: 2vw;
-		margin-right: 2vw;
+		height: 3vw;
+		margin-right: .5vw;
 	}
 	.section5-right span > p{
-		font-size: 1.7vw;
+		font-size: 2.2vw;
+	}
+	.footer{
+		height: 10vw;
 	}
 	.footer-left{
-		font-size: 1.8vw;
+		font-size: 2.5vw;
+	}
+	.footer-right{
+		margin-left: 2vw;
 	}
 	.footer-right div{
 		width: 13%;
 		height: 3.5vw;
 		margin-left: 2vw;
-		margin-top: .5vw;
+		margin-top: 2.3vw;
 	}
 }
