@@ -824,26 +824,32 @@ html{
 		font-size: 2.5vw;
 		width: 33%;
 	}
+	.section1{
+		display: block;
+	}
+	.section1-left{
+		width: 100%;
+	}
 	.section1-left-top-img{
 		margin-top: 2.1vw;
 		margin-bottom: 1.2vw;
 		margin-left: 1.2vw;
 	}
 	.section1-left-top-content h3{
-		font-size: 3.3vw;
-		margin-bottom: 1.2vw;
+		font-size: 4vw;
+		margin-bottom: 5vw;
 	}
 	.section1-left-top-content p{
-		font-size: 2.3vw;
-		height: 3vw;
-		overflow: auto;
+		font-size: 2.7vw;
+		margin-top: 2vw;
 	}
 	.section1-left-top-content button{
-		font-size: 1.5vw;
+		font-size: 2.7vw;
 		width: 60%;
+		height: 7vw;
 		padding-left: 1vw;
 		padding-right: 1vw;
-		margin-top: 1.5vw;
+		margin-top: 6vw;
 		margin-left: 1.5vw;
 	}
 	.section1-left-bottom-content h3{
